@@ -20,7 +20,7 @@ import hashlib
 import json
 from google.cloud import vision
 # Replace in holographic_health_app.py:
-from simple_ai_analyzer import EnhancedSpectralElementAnalyzer
+from ai_image_analyzer import EnhancedSpectralElementAnalyzer
 analyzer = EnhancedSpectralElementAnalyzer()
 
 # Configure Streamlit page
@@ -2770,4 +2770,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
