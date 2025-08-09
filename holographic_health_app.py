@@ -2247,7 +2247,7 @@ def main():
 
         if uploaded_file is not None:
             # Display uploaded image
-            st.sidebar.image(uploaded_file, caption="Analysis Target", use_column_width=True)
+            st.sidebar.image(uploaded_file, caption="Analysis Target", use_container_width=True)
 
             # Analyze image
             if st.sidebar.button("🔬 Begin Holographic Analysis", type="primary", key="analyze_image_btn"):
