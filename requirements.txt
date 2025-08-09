@@ -6,3 +6,5 @@ pillow
 sqlalchemy
 python-dotenv
 bcrypt
+opencv-python==4.8.1.78
+scikit-learn==1.3.0
