@@ -18,7 +18,7 @@ import io
 import base64
 import hashlib
 import json
-from ai_image_analyzer import EnhancedSpectralElementAnalyzer
+
 
 
 # Configure Streamlit page
@@ -2768,6 +2768,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
 
