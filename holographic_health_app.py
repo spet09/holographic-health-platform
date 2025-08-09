@@ -18,7 +18,8 @@ import io
 import base64
 import hashlib
 import json
-
+from lightweight_ai_analyzer import EnhancedSpectralElementAnalyzer
+analyzer = EnhancedSpectralElementAnalyzer()
 
 
 # Configure Streamlit page
@@ -2249,7 +2250,7 @@ def main():
 
         if uploaded_file is not None:
             # Display uploaded image
-            st.sidebar.image(uploaded_file, caption="Analysis Target", use_container_width=True)
+            st.sidebar.image(uploaded_file, caption="Analysis Target", use_column_width=True)
 
             # Analyze image
             if st.sidebar.button("🔬 Begin Holographic Analysis", type="primary", key="analyze_image_btn"):
@@ -2768,7 +2769,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-
-
-
